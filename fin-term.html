@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>여행</title>
+    <link rel="stylesheet" type="text/css" href="css1/common.css">
+    <link rel="stylesheet" type="text/css" href="css1/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <script src="https://use.fontawesome.com/926fe18a63.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" rel="stylesheet" href="./css/jquery.bxslider.min.css">
+     <script src="js/jquery-3.1.1.min.js"></script>
+     <script src="js/jquery.bxslider.min.js"></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" rel="stylesheet" href="./css/jquery.bxslider.min.css">
+    <script>
+        $(function() {
+            $(".bxslider").bxSlider({
+                
+                slidthWidth:800,
+                captions:true,
+                auto:true,
+                autoControls:true,
+                stopAutoOnclick:true
+                
+            });
+            
+        });
+    </script>
+    <style>
+        body{            
+            margin: 0px;
+            padding: 50px;
+            background-color: lightcyan;
+            text-align: center;
+            font-family: 맑은고딕;
+        }
+          #wrapper {
+            padding-top: 100px;
+            width: 800px;
+            margin: 0 auto;
+        }
+          #title1 {
+            padding: 10px;
+            margin: 300px;
+            margin-top: 100px;
+            margin-bottom: 20px;
+            background-color: darkcyan;
+            color: #ffffff;
+        }
+        #subtitle1 {
+            color: darkcyan;
+            font-size: 10pt;
+        }
+        #title2 {
+            padding: 10px;
+            margin: 300px;
+            margin-top: 100px;
+            margin-bottom: 20px;
+            background-color: goldenrod;
+            color: #ffffff;
+        }
+        #subtitle2{
+            color: goldenrod;
+            font-size: 10pt;
+        }
+        #logo {
+            text-align: left;
+        }
+        #img {
+            text-align: center;
+        }
+        #copyright {
+            font-size: 13pt;
+        }
+        #text {
+            font-size: 10pt;
+        }
+    </style>
+</head>
+<body>
+   <header>
+       <div id="logo">
+           <a href="index.html">
+               <img src="./img/home.png" width="35">
+           </a>
+       </div>
+       <div class='menu'>
+        <ul>
+            <li>
+                <a href='index.html'>Home</a>
+            </li>
+            <li>
+               <a href='#'>오사카 정보</a>
+            </li>
+            <li>
+                <a href='#'>관광안내</a>
+            </li>
+            <li class='last'>
+                <a href='#'>숙박예약</a>
+            </li>
+            <li>
+                <a href='#'>쇼핑안내</a>
+            </li>
+            <li class='last'>
+                <a href='#'>맛집안내</a>
+            </li>
+        </ul>
+    </div>
+   </header>
+   <div class="clear"></div>
+   <div id="wrapper">
+           <div class="bxslider">
+            <div>
+              <img src="img/osaka1.jpg"  title="먹거리가 많은 오사카">
+            </div>
+            <div>
+              <img src="img/osaka2.jpg"  title="유니버셜 스튜디오">
+            </div>
+            <div>
+              <img src="img/osaka3.jpg"  title="오사카성">
+            </div>         
+        </div>
+    </div>
+    <br><br><br>
+    <h1 id="welcome">WELCOME TO OSAKA</h1>
+    <h4>오사카 방문을 환영합니다</h4>
+    <h3 id="title1">
+        HELLO OSAKA!
+    </h3>  
+    <h4 id="subtitle1">한국인이 가장 많이 방문하는 해외 관광지 1위</h4><br>
+    <div id="text">
+    2년 연속 한국인이 좋아하는 인기 해외 도시는 단연 오사카! <br>
+    지리적으로 2시간이 걸리지 않는 거리에 위치한 일본 오사카의 경우<br>
+    디저트/라멘/스시 등 각종 먹거리로 유명한 지역입니다. <br>
+    옛 일본의 수도이자 서정적인 도시 교토와 메이지유신 서양문물이 유입되어, <br>
+    야경이 아름다운 고베를 함께 둘러보실 수 있는 메리트가 있습니다.</div> <br><br><br>
+    <div id="img">
+    <img src="./img/osaka4.png" alt="">
+    </div>
+    <h3 id="title2">
+        TOUR INFORMATION
+    </h3>  
+    <h4 id="subtitle2">OSAKA 여행 처음이세요?</h4><br>
+    <div id="text">
+    오사카 관광은 최소 2박3일부터 최대 5박6일정도면 충분한 일정으로 <br>
+    맛있는 음식집을 찾아가는 맛집 여행부터 전통과 문화를 찾아가는<br>
+    여행까지 다양한 컨셉으로 즐기실 수 있습니다.</div> <br><br><br>
+    <div id="img">
+    <img src="./img/osaka5.jpg" alt="">
+    </div>
+    <footer>   
+    <section id="footer_menu_box">  
+       <nav id="footer_menu">  
+            <ul>    
+                 <li><a href="#">ABOUT OSAKA-INFO.KR</a></li> 
+                 <li><a href="#">NOTICE</a></li>  
+                 <li><a href="#">NEWS</a></li>         
+                 <li><a href="#">QNA</a></li>         
+                 <li><a href="#">EVENT</a></li>       
+             </ul>
+        </nav>  
+    </section>
+    <section id="footer_box">  
+        <div id="footer_logo">  
+            <img src="img/footerlogo.png">  
+        </div>
+           <br><br><br>
+            <p id="copyright">
+                copyright&copy Koo All rights reserved.
+            </p>
+            <span id="copyright">email:98junu@gmail.com</span>
+    </section>
+</footer>
+</body>
+</html>
