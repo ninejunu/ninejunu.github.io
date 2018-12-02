@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+     <!--    css연결-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+<style>
+        body{
+            font-family: 'Nanum Gothic', sans-serif;
+            
+            margin: 0px;
+            padding: 50px;background-color:darkgrey
+        }
+          #wrapper {
+            padding-top: 100px;
+            width: 400px;
+            margin: 0 auto;
+        }
+    </style>
+<body>
+        <div class='menu'>
+        <ul>
+            <li>
+                <a href-'#'>Home</a>
+            </li>
+            <li>
+               <a href-'#'>About Us</a>
+            </li>
+            <li class='active sub'>
+                <a href='#'>HOMEWORK</a>
+                
+                <ul>
+                    <li class='sud'>
+                        <a href='#'>HTML</a>
+                        <ul>
+                            <li>
+                                <a href='hw01.html'>hw1</a>
+                            </li>
+                            <li>
+                                <a href='hw02.html'>hw2</a>
+                            </li>
+                            <li>
+                                <a href='hw03.html'>hw3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='sub'>
+                        <a href='#'>CSS </a>
+                        <ul>
+                            <li>
+                                <a href='hw04.html'>hw4</a>
+                            </li>
+                            <li>
+                                <a href='hw05.html'>hw5</a>
+                            </li>
+                            <li>
+                                <a href='hw06.html'>hw6</a>
+                            </li>
+                            <li>
+                                <a href='contact.html'>hw7</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href='portfolio.html'>Portfolio</a>
+            </li>
+            <li class='last'>
+                <a href='contact.html'>Contact</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
+    <!--본문-->
+    <div id="background">
+        <h3>Contect</h3>
+        <form>
+            <table border="1" id="warpper">
+                <tr>
+                    <td>이름</td>
+                    <td> <input type="text" name="uid"><br></td>
+                </tr>
+                <tr>
+                    <td>비밀번호</td>
+                    <td><input type="password" name="upw"><br></td>
+                </tr>
+                <tr>
+                    <td>이메일</td>
+                    <td> <input type="email" name="email"></td>
+                </tr>
+                <tr>
+                   <td></td>
+                    <td>@<select name="cars" size="1">
+                            <option value="google">구글</option>
+                            <option value="naver">네이버</option>
+                            <option value="daum">다음</option>
+                            <option value="">직접입력</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>제목</td>
+                    <td><input type="text" name="text"></td>
+                </tr>
+                <tr>
+                    <td>내용</td>
+                    <td> <textarea name="message" rows="1" cols="22"></textarea></td>
+                </tr>
+            </table>
+            <table id="send">
+                <td><input type="submit" value="전송" id="sand1"> <input type="submit" value="재설정" id="sand2"> </td>
+            </table>
+        </form>
+    </div>
+    <!--저작권-->
+  <footer>
+        <div id="footer">
+            <p>
+                copyright&copy <a href="index.html" class="site">gyu</a> All rights reserved.
+            </p>
+            <span>email:rlarbgmldla@naver.com</span>
+        </div>
+    </footer>
+</body>
+</html>
